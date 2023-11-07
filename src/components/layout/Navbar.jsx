@@ -10,7 +10,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            UsersApp
+            Consorcio
           </a>
           <button
             className="navbar-toggler"
@@ -33,6 +33,11 @@ export const Navbar = () => {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/users/register">
                   Registrar Usuarios
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/edificios">
+                  Edificios
                 </NavLink>
               </li>
             </ul>

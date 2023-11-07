@@ -4,6 +4,7 @@ import { UsersPage } from "../pages/UsersPages";
 import { Navbar } from "../components/layout/NavBar";
 import { RegisterPage } from "../pages/RegisterPage";
 import { UserProvider } from "../context/UserProvider";
+import { EdificiosPage } from "../pages/EdificiosPage";
 
 export const UserRoutes = () => {
   return (
@@ -14,6 +15,7 @@ export const UserRoutes = () => {
           <Route path="users" element={<UsersPage />} />
           <Route path="users/register" element={<RegisterPage />} />
           <Route path="users/edit/:id" element={<RegisterPage />} />
+          <Route path="/edificios" element={<EdificiosPage />} />
           <Route path="/*" element={<Navigate to="/users" />} />
         </Routes>
       </UserProvider>

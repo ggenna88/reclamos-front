@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Navigate, Route, Routes } from "react-router-dom";
 import { UsersPage } from "../pages/UsersPages";
-import { Navbar } from "../components/layout/NavBar";
+import { Navbar } from "../components/layout/Navbar";
 import { RegisterPage } from "../pages/RegisterPage";
 import { UserProvider } from "../context/UserProvider";
 import { EdificiosPage } from "../pages/EdificiosPage";
